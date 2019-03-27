@@ -200,6 +200,15 @@
         });
     }
 
+
+
+    if ($.fn.scrollDown) {
+        alime_window.scrollDown({
+            scrollSpeed: 1000,
+            scrollText: '<a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a>'
+        });
+    }
+
     // *********************************
     // :: 14.0 Prevent Default 'a' Click
     // *********************************
