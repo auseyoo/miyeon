@@ -155,13 +155,10 @@ button::-moz-focus-inner {
   width: 100%; }
 
 .mfp-counter {
-  position: absolute;
-  top: 0;
-  right: 0;
   color: #CCC;
   font-size: 12px;
   line-height: 18px;
-  white-space: nowrap; }
+  white-space: nowrap; display: none;}
 
 .mfp-arrow {
   position: absolute;
@@ -249,7 +246,6 @@ img.mfp-img {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 40px 0 40px;
   margin: 0 auto; }
 
 /* The shadow behind the image */
@@ -274,20 +270,19 @@ img.mfp-img {
     font-size: 12px;
     line-height: 14px; }
   .mfp-figure figure {
-    margin: 0; }
+    width:100%; margin: 0; padding: 85px; background:#fff;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  }
 
 .mfp-bottom-bar {
-  margin-top: -36px;
-  position: absolute;
-  top: 100%;
-  left: 0;
+  margin-top: 36px;
   width: 100%;
   cursor: auto; }
 
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #F3F3F3;
   word-wrap: break-word;
   padding-right: 36px; }
 
