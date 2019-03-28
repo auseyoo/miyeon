@@ -1589,7 +1589,7 @@ background-color: #000000;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
-    opacity: 0.7;
+    opacity: 0.3;
 }
 .single-portfolio-content em {
     width: 100%;
@@ -1632,17 +1632,29 @@ background-color: #000000;
       line-height: 52px;
       font-size: 30px;
       color: #ffffff; }
-      .single-portfolio-content .hover-content a:hover, .single-portfolio-content .hover-content a:focus {
-        background-color: #000000; }
-  .single-portfolio-content:hover img, .single-portfolio-content:focus img {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2); }
-  .single-portfolio-content:hover .hover-content, .single-portfolio-content:focus .hover-content {
-    opacity: 1;
-    visibility: visible; }
-    .single-portfolio-content:hover .hover-content a, .single-portfolio-content:focus .hover-content a {
-      margin-top: -26px; }
+	.single-portfolio-content .hover-content a:hover,
+	.single-portfolio-content .hover-content a:focus {
+		background-color: #000000;
+	}
+	.single-portfolio-content:hover img,
+	.single-portfolio-content:focus img {
+		-webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	.single-portfolio-content:hover .hover-content,
+	.single-portfolio-content:focus .hover-content {
+		opacity: 1;
+		visibility: visible;
+	}
+	.single-portfolio-content:hover .hover-content a,
+	.single-portfolio-content:focus .hover-content a {
+	  	margin-top: -26px;
+	}
+	.single-portfolio-content:hover em,
+	.single-portfolio-content:focus em {
+	  	visibility: hidden;
+	}
 
 /* :: 16.0 Contact CSS */
 .alime-contact-form .form-control {
