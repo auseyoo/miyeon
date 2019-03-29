@@ -639,7 +639,7 @@ input:required {
 .classy-navbar-toggler .navbarToggler span {
   background-color: #ffffff; }
 
-/* :: 8.0 Hero CSS */
+/* :: Welcome */
 .welcome-area {
   position: relative;
   z-index: 1; }
@@ -735,37 +735,57 @@ input:required {
       .single-welcome-slide .welcome-text .hero-mail-contact:hover, .single-welcome-slide .welcome-text .hero-mail-contact:focus {
         color: #fc6060; }
 
-/* :: 9.0 Footer CSS */
+/* :: Footer CSS */
 .footer-content {
-  padding: 20px 0; }
+  padding: 20px 0; 
+}
   .footer-content .copywrite-text {
     position: relative;
-    z-index: 1; }
+    z-index: 1; 
+  }
     .footer-content .copywrite-text p {
       margin-bottom: 0;
-      color: #252525; }
-      @media only screen and (max-width: 767px) {
-        .footer-content .copywrite-text p {
-          font-size: 12px; } }
+      color: #252525; 
+ }
+ .footer-area .footer-logo a {font-weight: 600;}
+ .footer-area .footer-logo a:after {    
+    content: "";
+    width: 5px;
+    height: 5px;
+    margin-left: 3px;
+    background: #fc6060;
+    display: inline-block;
+    vertical-align: unset;}
+@media only screen and (max-width: 767px) {
+  .footer-content .copywrite-text p {
+   font-size: 12px; 
+  } 
+}
       .footer-content .copywrite-text p a {
         color: #fc6060;
-        font-weight: 400; }
-        @media only screen and (max-width: 767px) {
-          .footer-content .copywrite-text p a {
-            font-size: 12px; } }
+        font-weight: 400;
+}
+@media only screen and (max-width: 767px) {
+  .footer-content .copywrite-text p a {
+    font-size: 12px; 
+  } 
+}
   @media only screen and (max-width: 767px) {
     .footer-content .footer-logo a img {
-      max-width: 50px; } }
+      max-width: 50px; } 
+    }
   .footer-content .social-info a {
     color: #252525;
     font-size: 16px;
     margin-right: 20px; }
     .footer-content .social-info a:last-child {
       margin-right: 0; }
-    @media only screen and (max-width: 767px) {
-      .footer-content .social-info a {
-        margin-right: 5px;
-        font-size: 12px; } }
+@media only screen and (max-width: 767px) {
+  .footer-content .social-info a {
+    margin-right: 5px;
+    font-size: 12px; 
+  } 
+}
     .footer-content .social-info a:hover, .footer-content .social-info a:focus {
       color: #fc6060; }
 
@@ -828,7 +848,8 @@ input:required {
   margin-top: 0;
   opacity: 1; }
 
-/* :: 11.0 About CSS */
+/* :: About CSS */
+#about {background:#8080801a;}
 .about-us-content h3 {
   font-size: 36px;
   display: block;
