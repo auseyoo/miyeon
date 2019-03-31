@@ -1,1 +1,2 @@
-CSS framework인 Bootstrap을 이용하여 개인 포트폴리오를 만들어보았습니다.
+# CSS 프레임워크인 부트스트랩을 이용하여 포트폴리오 홈페이지를 만들었습니다.
+**[View Live Preview](https://auseyoo.github.io/miyeon/)**
