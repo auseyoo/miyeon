@@ -154,7 +154,7 @@ ul {
   text-align:left;
 }
 .txt dl dt{margin-left: -123px; float:left;}
-.txt dl dd {position: relative;}
+.txt dl dd {position: relative; line-height:1.5;}
 .txt dl dd:before {
     content:":";
     display:inline;
@@ -1623,7 +1623,6 @@ background-color: #000000;
     text-align: center;
     color: #fff;
     z-index: 3;
-    font-size:14px;
     font-style: normal;
     font-weight: bold;
 }
@@ -1727,3 +1726,7 @@ background-color: #000000;
     border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
+
+@media (min-width: 992px) and (max-width: 1300px){
+	.single-portfolio-content em {font-size:14px;}
+}
