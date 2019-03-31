@@ -200,20 +200,22 @@
         });
     }
 
-
-
-    if ($.fn.scrollDown) {
-        alime_window.scrollDown({
-            scrollSpeed: 1000,
-            scrollText: '<a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">Get a Quote</a>'
-        });
-    }
-
     // *********************************
     // :: 14.0 Prevent Default 'a' Click
     // *********************************
     $('a[href="#"]').on('click', function ($) {
         $.preventDefault();
     });
+
+    // 헤더 포지션값 변경
+    $("#nav li a").click(function(){
+    	var position = $(this).data("position");
+
+    	$('html, body').animate({
+			scrollTop: $("#" + position).offset().top
+		}, 1000);
+    });
+
+    
 
 })(jQuery);
