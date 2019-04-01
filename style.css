@@ -140,13 +140,12 @@ ul {
   background: #fc6060;
   height: 30px;
   line-height: 30px;
-  책
-
 }
-/*img.mfp-img {
+img.mfp-img {
   -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
   box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-}*/
+  border-radius: 7px
+}
 .txt dl{
   padding-left:132px;
   overflow:hidden;
@@ -1401,7 +1400,7 @@ width: 100%;
 -o-transition-duration: 800ms;
 transition-duration: 800ms; 
 }
-.single-post-area .post-catagory {
+.single_gallery_item .post-catagory {
 position: absolute;
 padding: 2px 15px;
 border-radius: 2px;
@@ -1414,7 +1413,7 @@ right: 15px;
 z-index: 20;
 font-weight: 500; 
 }
-.single-post-area .post-catagory:hover, .single-post-area .post-catagory:focus {
+.single_gallery_item .post-catagory:hover, .single_gallery_item .post-catagory:focus {
 font-weight: 500;
 background-color: #000000; 
 }
