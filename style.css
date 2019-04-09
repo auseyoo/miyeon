@@ -141,11 +141,6 @@ ul {
   height: 30px;
   line-height: 30px;
 }
-img.mfp-img {
-  -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
-  border-radius: 7px
-}
 .txt dl{
   padding-left:132px;
   overflow:hidden;
