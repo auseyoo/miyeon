@@ -277,11 +277,9 @@ img.mfp-img {
   }
 .mfp-figure figcaption {
       position: absolute;
-    top: -40px;
-    padding-bottom: 25px;
+    top: -26px;
 }
 .mfp-bottom-bar {
-  margin-top: 36px;
   width: 100%;
   cursor: auto; }
 

@@ -206,7 +206,7 @@
     $('a[href="#"]').on('click', function ($) {
         $.preventDefault();
     });
-
+ 
     // 헤더 포지션값 변경
     $("#nav li a").click(function(){
     	var position = $(this).data("position");

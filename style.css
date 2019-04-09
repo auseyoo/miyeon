@@ -1573,7 +1573,14 @@ background-color: #000000;
     margin: 0 25px;
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
-    transition-duration: 500ms; }
+    transition-duration: 500ms; 
+  }
+  .alime-projects-menu .portfolio-menu .btn:first-of-type {
+    margin-left:0;
+  }
+  .alime-projects-menu .portfolio-menu .btn:last-of-type {
+    margin-right:0;
+  }
     @media only screen and (max-width: 767px) {
       .alime-projects-menu .portfolio-menu .btn {
         font-size: 14px;
