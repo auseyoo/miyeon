@@ -16,6 +16,19 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+<style>
+    #videobcg { 
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: -1000;
+     overflow: hidden;
+}
+</style>
 </head>
 
 <body>
@@ -88,8 +101,14 @@
     <!-- Welcome Area Start -->
     <section class="welcome-area" id="welcome">
         <div class="welcome-slides owl-carousel">
+
             <!-- Single Slide -->
-            <div class="single-welcome-slide bg-img bg-overlay" style="background-image: url(img/bg-img/1.jpg);">
+            <div class="single-welcome-slide bg-img bg-overlay" >
+                   <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+     <source src="img/bg-img/1.mp4" type="video/mp4">
+     <source src="img/bg-img/1.mp4" type="video/webm">
+          Sorry, your browser does not support HTML5 video.
+</video>
                 <div class="container h-100 top">
                     <div class="row h-100 align-items-center">
                         <!-- Welcome Text -->

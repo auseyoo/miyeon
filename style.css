@@ -106,7 +106,7 @@ ul {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: rgba(0, 0, 0, 0.4); }
+}
 
 .bg-img {
   background-position: center center !important;
@@ -641,7 +641,7 @@ input:required {
 .classy-navbar-toggler .navbarToggler span {
   background-color: #ffffff; }
 
-/* :: Welcome */
+/* :: 8.0 Hero CSS */
 .welcome-area {
   position: relative;
   z-index: 1; }
@@ -677,12 +677,9 @@ input:required {
       .welcome-slides .owl-next {
         left: 30px; } }
     @media only screen and (max-width: 767px) {
-    	.welcome-slides .owl-nav {display:none;}
       .welcome-slides .owl-prev,
       .welcome-slides .owl-next {
         width: 40px;
-        top:auto;
-        bottom:10%;
         left: 15px;
         height: 40px;
         font-size: 18px;
@@ -701,7 +698,7 @@ input:required {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 100vh !important;
+  height: 880px;
   background-color: #fc6060; }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-welcome-slide {
@@ -749,6 +746,7 @@ input:required {
       margin-bottom: 0;
       color: #252525; 
  }
+ .footer-area .footer-link {width: }
  .footer-area .footer-logo {float;left;}
  .footer-area .footer-logo a {font-weight: 600;}
  .footer-area .footer-logo a:after {    
