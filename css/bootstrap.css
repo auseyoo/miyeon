@@ -1401,6 +1401,7 @@ pre code {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
 .table-responsive-lg>.table-bordered {
     border: 0;
 }

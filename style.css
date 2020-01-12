@@ -438,7 +438,7 @@ input:required {
   padding: 0 30px;
   text-align: center;
   text-transform: capitalize;
-  background-color: transparent;
+  background-color: #fc6060;
   color: #ffffff;
   border: 2px solid #fc6060;
   border-radius: 60px;
