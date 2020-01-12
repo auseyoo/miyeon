@@ -1650,7 +1650,7 @@ function(a, b, c, d) {
     };
     a.magnificPopup.registerModule("image", {
         options: {
-            markup: '<div class="mfp-figure"><div class="mfp-close"></div><figure><div class="mfp-img"></div><figcaption><div class="mfp-bottom-bar"><div class="mfp-title">테스트</div><div class="mfp-counter"></div></div></figcaption></figure></div>',
+            markup: '<div class="mfp-figure"><div class="mfp-close"></div><figure><div class="mfp-img"></div><figcaption><div class="mfp-bottom-bar"><div class="mfp-title"></div><div class="mfp-counter"></div></div></figcaption></figure></div>',
             cursor: "mfp-zoom-out-cur",
             titleSrc: "title",
             verticalFit: !0,
