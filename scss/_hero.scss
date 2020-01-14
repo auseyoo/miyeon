@@ -3,6 +3,10 @@
 .welcome-area {
     position: relative;
     z-index: 1;
+
+    .welcome-area .alime-btn {
+    	background-color: #fc6060;
+    }
 }
 
 .welcome-slides {
