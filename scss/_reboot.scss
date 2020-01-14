@@ -117,7 +117,7 @@ ul {
 }
 
 img.mfp-img {
-   
+    @include box-shadow($box-shadow);
 }
 
 button.mfp-close,

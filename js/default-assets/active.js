@@ -206,34 +206,5 @@
     $('a[href="#"]').on('click', function ($) {
         $.preventDefault();
     });
- 
-    // 헤더 포지션값 변경
-    $("#nav li a").click(function(){
-    	var position = $(this).data("position");
-
-    	$('html, body').animate({
-			scrollTop: $("#" + position).offset().top
-		}, 1000);
-    });
-
-    $.fn.isInViewport = function() {
-      var elementTop = $(this).offset().top;
-      var elementBottom = elementTop + $(this).outerHeight();
-
-      var viewportTop = $(window).scrollTop();
-      var viewportBottom = viewportTop + $(window).height();
-
-      return elementBottom > viewportTop && elementTop < viewportBottom;
-    };
-
-    var scrollArray = ["#welcome", "#about", "#portfolio", "#contact"];
-    $(window).on('resize scroll', function() {
-      $.each(scrollArray, function(i) {
-        if ($(this).isInViewport()) {
-            $("#nav li").eq(i).addClass("active").siblings().removeClass("active");
-          $(this).addClass("active");
-        }
-      });
-    });
 
 })(jQuery);
