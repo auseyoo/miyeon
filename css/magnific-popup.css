@@ -244,7 +244,7 @@ button::-moz-focus-inner {
 /* Main image in popup */
 img.mfp-img {
   width: auto;
-  max-width: 100%;
+  max-width: 540px;
   height: auto;
   display: block;
   line-height: 0;
@@ -274,8 +274,17 @@ img.mfp-img {
     font-size: 12px;
     line-height: 14px; }
   .mfp-figure figure {
+<<<<<<< HEAD
     margin: 0; }
 
+=======
+    width:100%; margin: 0; 
+  }
+.mfp-figure figcaption {
+      position: absolute;
+    top: -26px;
+}
+>>>>>>> parent of 687c25c... 포폴 깨짐 수정 제발 잘보이길..
 .mfp-bottom-bar {
   margin-top: -36px;
   position: absolute;
