@@ -72,20 +72,7 @@
     position: relative;
     z-index: 1;
     @include transition-duration(500ms);
-    overflow: hidden;  
-
-	em {
-	    width: 100%;
-	    margin-top: -7%;
-	    position: absolute;
-	    top: 50%;
-	    left: 0;
-	    text-align: center;
-	    color: #fff;
-	    z-index: 3;
-	    font-style: normal;
-	    font-weight: bold;
-	}
+    overflow: hidden;
 
     img {
         width: 100%;
