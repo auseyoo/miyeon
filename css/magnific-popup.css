@@ -8,7 +8,7 @@
   overflow: hidden;
   position: fixed;
   background: #0b0b0b;
-  opacity: 0.8; }
+  opacity: 0.9; }
 
 .mfp-wrap {
   top: 0;
@@ -45,7 +45,9 @@
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; }
+  background: #fff;
+  z-index: 1045; 
+}
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
@@ -55,7 +57,7 @@
 .mfp-ajax-cur {
   cursor: progress; }
 
-.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+.mfp-zoom-out-cur {
   cursor: -moz-zoom-out;
   cursor: -webkit-zoom-out;
   cursor: zoom-out; }
@@ -155,13 +157,11 @@ button::-moz-focus-inner {
   width: 100%; }
 
 .mfp-counter {
-  position: absolute;
-  top: 0;
-  right: 0;
   color: #CCC;
   font-size: 12px;
   line-height: 18px;
-  white-space: nowrap; }
+  white-space: nowrap; display: inline;
+}
 
 .mfp-arrow {
   position: absolute;
@@ -244,13 +244,12 @@ button::-moz-focus-inner {
 /* Main image in popup */
 img.mfp-img {
   width: auto;
-  max-width: 100%;
+  max-width: 540px;
   height: auto;
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 40px 0 40px;
-  margin: 0 auto; }
+   }
 
 /* The shadow behind the image */
 .mfp-figure {
@@ -266,8 +265,7 @@ img.mfp-img {
     width: auto;
     height: auto;
     z-index: -1;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #444; }
+  }
   .mfp-figure small {
     color: #BDBDBD;
     display: block;
@@ -275,24 +273,26 @@ img.mfp-img {
     line-height: 14px; }
   .mfp-figure figure {
     margin: 0; }
-
+    width:100%; margin: 0;
+    margin: 0;
+  }
+.mfp-figure figcaption {
+      position: absolute;
+    top: -26px;
+}
 .mfp-bottom-bar {
-  margin-top: -36px;
-  position: absolute;
-  top: 100%;
-  left: 0;
   width: 100%;
   cursor: auto; }
 
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #F3F3F3;
   word-wrap: break-word;
-  padding-right: 36px; }
+  padding-right: 36px;
+  display:inline;
+   }
 
-.mfp-image-holder .mfp-content {
-  max-width: 100%; }
+
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
