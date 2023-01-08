@@ -1581,15 +1581,19 @@ input:required {
 
  .single-portfolio-content em {
     width: 100%;
-    margin-top: -7%;
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 50%;
     text-align: center;
     color: #fff;
     z-index: 3;
     font-style: normal;
     font-weight: bold;
+    font-size: 1.125em;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
   }
 
   .single-portfolio-content .hover-content {
