@@ -9,18 +9,7 @@ gulp.task('js', function () {
     return gulp.src([
       'node_modules/jquery/dist/jquery.min.js',
       'node_modules/bootstrap/dist/js/bootstrap.min.js',
-      'node_modules/popper.js/dist/umd/popper.min.js',
-      'node_modules/owl.carousel2/dist/owl.carousel.min.js',
-      'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
-      'node_modules/wowjs/dist/wow.min.js',
-      'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
-      'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
-      'node_modules/jarallax/dist/jarallax.min.js',
-      'node_modules/jarallax/dist/jarallax-video.min.js',
-      'node_modules/jquery-waypoints/waypoints.min.js',
-      'node_modules/counterup/jquery.counterup.min.js',
-      'node_modules/jquery.easing/jquery.easing.min.js',
-      'node_modules/jquery-countdown/dist/jquery.countdown.min.js'
+     
     ])
         .pipe(gulp.dest("src/js"))
 });
@@ -31,19 +20,7 @@ gulp.task('js', function () {
 
 gulp.task('scripts', function () {
     return gulp.src([
-    './src/js/default-assets/avoid.console.error.js',
-    './src/js/default-assets/classy-nav.js',
-    'node_modules/owl.carousel2/dist/owl.carousel.min.js',
-    'node_modules/wowjs/dist/wow.min.js',
-    'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
-    'node_modules/jquery-waypoints/waypoints.min.js',
-    'node_modules/counterup/jquery.counterup.min.js',
-    'node_modules/imagesloaded/imagesloaded.pkgd.min.js',
-    'node_modules/isotope-layout/dist/isotope.pkgd.min.js',
-    'node_modules/jarallax/dist/jarallax.min.js',
-    'node_modules/jarallax/dist/jarallax-video.min.js',
-    './src/js/default-assets/jquery.scrollup.min.js',
-    'node_modules/jquery-countdown/dist/jquery.countdown.min.js'
+
   ])
         .pipe(concat('alime.bundle.js'))
         .pipe(gulp.dest('./src/js/'))
